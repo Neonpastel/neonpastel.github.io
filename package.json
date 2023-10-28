@@ -1,0 +1,17 @@
+{
+  "name": "neonpastel.net",
+  "version": "1.0.0",
+  "description": "Meow",
+  "main": "index.js",
+  "repository": "https://github.com/Denperidge/neonpastel.net.git",
+  "author": "Denperidge",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn eleventy --serve",
+    "build": "yarn eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "eleventy-sass": "^2.2.3"
+  }
+}

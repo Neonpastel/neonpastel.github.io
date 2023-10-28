@@ -1,0 +1,25 @@
+---
+layout: base.md
+---
+
+h1 Neonpastel.net
+p A collection of pages, projects &amp; service hosting
+
+h2 Projects
+ul
+    each href, title in projects
+        li 
+            a(href=href)=title
+
+h2 Pages
+ul
+    each href, title in pages
+        li 
+            a(href=href)=title
+        
+
+h2 Services hosted
+ul
+    each href, title in hosted_services
+        li !{title} @&nbsp;
+            a(href=href)=href
